@@ -1,0 +1,19 @@
+.taskViewDetail__progress {
+	display: flex;
+	align-items: center;
+	height: 36px;
+	max-width: 640px;
+}
+
+.taskViewDetail__progress .gridicon {
+	margin: 0 32px 0 8px;
+}
+
+.taskViewDetail__progress-name {
+	text-transform: capitalize;
+	display: flex;
+	justify-content: space-between;
+	width: 136px;
+	min-width: 136px;
+	flex-grow: 2;
+}

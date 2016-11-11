@@ -1,0 +1,48 @@
+.personView {
+	margin: 16px 5%;
+	min-width: 320px;
+	width: 90%;
+}
+
+.personView__header {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.personView__personInfo {
+	display: flex;
+	justify-content: space-between;
+	flex-grow: 2;
+	margin: 0% 2%	;
+}
+
+.personView__personName {
+	font-size: 32px;
+}
+
+.personView__personArea {
+	font-size: 32px;
+}
+
+.personView__attributes {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.personView__areas {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 16px;
+}
+
+.personView__area-name {
+	margin-right: 8px;
+	text-transform: capitalize;
+	color: #664;
+	width: 132px;
+	text-align: right;
+	display: inline-block;
+}

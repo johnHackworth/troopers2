@@ -1,0 +1,27 @@
+.taskView__people .peopleView {
+	padding: 4px;
+	width: 112px;
+	max-height: 48px;
+}
+.taskView__people .peopleView__content {
+	display: flex;
+	flex-direction: row;
+}
+
+.taskView__people .peopleView__content .face {
+	min-width: 40px;
+}
+
+.taskView__people .peopleView__content .personName {
+	font-size: 10px;
+	width: 60px;
+	margin-left: 4px;
+}
+
+
+.taskView__people .peopleView__content .gridicon {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: rgb(51, 187, 227);
+}

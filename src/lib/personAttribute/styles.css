@@ -1,0 +1,58 @@
+.personAttribute {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 320px;
+	height: 24px;
+	margin-bottom: 8px;
+}
+
+.personAttribute__name {
+	width: 120px;
+	margin-right: 10px;
+}
+
+.personAttribute .progress-bar {
+	width: 160px;
+	height: 100%;
+}
+
+.personAttribute.verylow .progress-bar .progress-bar__progress {
+	background-color: #C22;
+}
+
+.personAttribute.low .progress-bar .progress-bar__progress {
+	background-color: #955;
+}
+
+.personAttribute.veryhigh .progress-bar .progress-bar__progress {
+	background-color: #2C2;
+}
+
+.personAttribute.high .progress-bar .progress-bar__progress {
+	background-color: #399;
+}
+
+.personAttribute .personAttribute__value {
+	color: #995;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	width: 40px;
+}
+
+.personAttribute.verylow .personAttribute__value {
+	color: #F95;
+}
+
+.personAttribute.low .personAttribute__value {
+	color: #B95;
+}
+
+.personAttribute.veryhigh .personAttribute__value {
+	color: #9F5;
+}
+
+.personAttribute.high .personAttribute__value {
+	color: #9B5;
+}

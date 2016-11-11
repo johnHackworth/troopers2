@@ -1,0 +1,13 @@
+.scrumBoard .column .taskItem {
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 16px;
+	width: 100%;
+}
+
+.taskItem__name {
+	width: 100%;
+	color: #0085be;
+	font-weight: bold;
+}
